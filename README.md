@@ -37,3 +37,42 @@ SaveTheBunny/
 ├── settings.gradle.kts              # Gradle module linking
 ├── gradlew / gradlew.bat            # Gradle wrapper scripts
 └── .gitignore                       # Files to exclude from version control
+
+---
+
+## ▶️ How to Run the App
+Connect your Android phone with USB debugging enabled
+or start an Android emulator (API 23 or higher)
+
+Click the Run ▶ button in Android Studio
+
+Select your device when prompted
+
+The app will build, install, and launch on your device
+
+
+🎮 Game Functionality
+You control a bunny 🐰 using touch input (drag left/right)
+
+Spikes fall from the top of the screen
+
+For each successful dodge, you earn +10 points
+
+The health bar shows how many lives you have left:
+
+💚 Green = 3 lives
+
+💛 Yellow = 2 lives
+
+❤️ Red = 1 life
+
+If the bunny is hit 3 times, the game ends
+
+You are taken to a Game Over screen which shows:
+
+Your current score
+
+Your highest score
+
+You can then Restart the game or Exit
+
