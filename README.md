@@ -38,7 +38,9 @@ SaveTheBunny/
 ├── gradlew / gradlew.bat            # Gradle wrapper scripts
 └── .gitignore                       # Files to exclude from version control
 
----
+
+```plaintext
+
 
 ## ▶️ How to Run the App
 Connect your Android phone with USB debugging enabled
