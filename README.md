@@ -16,32 +16,6 @@ Before you build or run this project, make sure you have the following installed
 
 ---
 
-## 🗂 Project Structure
-
-```plaintext
-SaveTheBunny/
-├── app/
-│   ├── java/com/example/savethebunny/
-│   │   ├── MainActivity.java         # Entry point
-│   │   ├── GameView.java             # Game engine & logic
-│   │   ├── GameOver.java             # Game over screen
-│   │   ├── Spike.java                # Falling spike logic
-│   │   └── Explosion.java            # Optional: spike hit animation
-│   ├── res/
-│   │   ├── drawable/                 # Game assets: background, bunny, spike, UI icons
-│   │   ├── layout/
-│   │   │   ├── activity_main.xml     # Game screen layout
-│   │   │   └── game_over.xml         # Game Over screen layout
-│   │   └── values/                  # Strings, colors, dimensions
-├── build.gradle.kts                 # Project build config
-├── settings.gradle.kts              # Gradle module linking
-├── gradlew / gradlew.bat            # Gradle wrapper scripts
-└── .gitignore                       # Files to exclude from version control
-
-
-```plaintext
-
-
 ## ▶️ How to Run the App
 Connect your Android phone with USB debugging enabled
 or start an Android emulator (API 23 or higher)
@@ -53,7 +27,7 @@ Select your device when prompted
 The app will build, install, and launch on your device
 
 
-🎮 Game Functionality
+## 🎮 Game Functionality
 You control a bunny 🐰 using touch input (drag left/right)
 
 Spikes fall from the top of the screen
@@ -77,4 +51,32 @@ Your current score
 Your highest score
 
 You can then Restart the game or Exit
+
+---
+
+## 🗂 Project Structure
+
+```plaintext
+SaveTheBunny/
+├── app/
+│   ├── java/com/example/savethebunny/
+│   │   ├── MainActivity.java         # Entry point
+│   │   ├── GameView.java             # Game engine & logic
+│   │   ├── GameOver.java             # Game over screen
+│   │   ├── Spike.java                # Falling spike logic
+│   │   └── Explosion.java            # Optional: spike hit animation
+│   ├── res/
+│   │   ├── drawable/                 # Game assets: background, bunny, spike, UI icons
+│   │   ├── layout/
+│   │   │   ├── activity_main.xml     # Game screen layout
+│   │   │   └── game_over.xml         # Game Over screen layout
+│   │   └── values/                  # Strings, colors, dimensions
+├── build.gradle.kts                 # Project build config
+├── settings.gradle.kts              # Gradle module linking
+├── gradlew / gradlew.bat            # Gradle wrapper scripts
+└── .gitignore                       # Files to exclude from version control
+
+
+
+
 
